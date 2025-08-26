@@ -1,0 +1,12 @@
+# Render configuration for PSC Trading System
+services:
+  - type: web
+    name: psc-trading-system
+    env: python
+    buildCommand: pip install -r core/requirements.txt
+    startCommand: python core/psc_ton_system.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: PORT
+        value: 10000

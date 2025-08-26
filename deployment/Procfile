@@ -1,0 +1,2 @@
+# Procfile for PSC Trading System
+web: python core/psc_ton_system.py
