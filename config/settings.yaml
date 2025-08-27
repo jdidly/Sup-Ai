@@ -1,7 +1,7 @@
 # Trading Configuration
 trading:
   min_signal_ratio: 1.25
-  min_confidence_threshold: 0.3
+  min_confidence_threshold: 0.5
   max_positions: 5
   position_timeout_minutes: 10
   
@@ -16,7 +16,7 @@ ml:
   scan_interval_seconds: 45
   prediction_history_limit: 1000
   model_retrain_interval_hours: 24
-  confidence_threshold: 0.3
+  confidence_threshold: 0.5
   min_return_threshold: 0.001  # 0.1%
   
 # TradingView Integration
