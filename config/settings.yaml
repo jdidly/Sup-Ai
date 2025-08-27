@@ -38,8 +38,8 @@ monitoring:
   enable_performance_tracking: true
   
 # Telegram Configuration
-telegram_token: "8267219396:AAEtZuCB3bmz75TS15jENKy_rikVOa23r2o"
-telegram_chat_id: "8330608685"
+telegram_token: "example"
+telegram_chat_id: "example"
 
 # Notifications
 notifications:
